@@ -38,10 +38,12 @@ Aplicando el principio de privilegios mínimos, se estructuró el siguiente esqu
 
 ---
 
-### 5. Arquitectura y Uso de Gráficos
+### 5. Arquitectura
 El siguiente diagrama ilustra el flujo de trabajo automatizado y la interacción entre los servicios.
 
-![Diagrama de Arquitectura GCP](diagrama.png)
+<p align="center">
+  <img src="diagrama.png" alt="Diagrama de Arquitectura GCP" width="600px">
+</p>
 
 **Desglose del Flujo:**
 1.  **Origen:** Un archivo es subido al bucket de Cloud Storage.
@@ -89,4 +91,5 @@ Para verificar el funcionamiento y garantizar la estabilidad de la Cloud Functio
 
 ---
 ## 📚 Documentación del Código
+
 El código fuente (`main.py`) incluye comentarios detallados que explican la lógica de extracción de metadatos, la inicialización del cliente de Cloud Logging y las decisiones técnicas aplicadas para el manejo de excepciones.
